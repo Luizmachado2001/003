@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 class Transporte(ABC):
-    def __init__(self, distancia, frete):
+    def __init__(self, distancia, frete=0):
         self.distancia = distancia
         self.frete = frete
 
